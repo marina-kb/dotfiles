@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = marina.kozlova.mk@gmail.com
+	name = Marina Kozlova
