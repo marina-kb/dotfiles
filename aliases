@@ -7,3 +7,11 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
+
+alias juno="jupyter notebook"
+
+# GCP
+
+alias ggc="gcloud"
+alias open-vm='gcloud compute ssh --zone "europe-west1-b" "drlchess-862"  --project "le-wagon-bootcamp-350814"'
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/marinakb/code/marina-kb/gcp/le-wagon-bootcamp-350814-753e8ef0ef4f.json
